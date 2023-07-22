@@ -1,7 +1,6 @@
-# Introduction
+## Introduction
 
-+ Pytorch implementation for paper "Treatment Outcome Prediction for Intracerebral Hemorrhage via Generative Prognostic Model with Imaging and Tabular Data" (MICCAI'23).
-+ We run main_VAE.py to train and evaluate the model. Our proposed model is saved in models.py, named "VAE_ours2".
++ Pytorch implementation for paper **[Treatment Outcome Prediction for Intracerebral Hemorrhage via Generative Prognostic Model with Imaging and Tabular Data](https://github.com/med-air/TOP-GPM)** 
 
 <p align="center">
 <img src="./assets/intro.png" alt="intro" width="85%"/>
@@ -11,7 +10,7 @@
 > Intracerebral hemorrhage (ICH) is the second most common and deadliest form of stroke. Despite medical advances, predicting treatment outcomes for ICH remains a challenge.
 This paper proposes a novel prognostic model that utilizes both imaging and tabular data to predict treatment outcome for ICH. Our model is trained on observational data collected from non-randomized controlled trials, providing reliable predictions of treatment success. Specifically, we propose to employ a variational autoencoder model to generate a low-dimensional prognostic score, which can effectively address the selection bias resulting from the non-randomized controlled trials. Importantly, we develop a variational distributions combination module that combines the information from imaging data, non-imaging clinical data, and treatment assignment to accurately generate the prognostic score. We conducted extensive experiments on a real-world clinical dataset of intracerebral hemorrhage. Our proposed method demonstrates a substantial improvement in treatment outcome prediction compared to existing state-of-the-art approaches.
 
-# Setup
+## Setup
 
 ### OS Requirements
 This model has been tested on the following systems:
@@ -34,6 +33,13 @@ scikit-learn           0.24.2
 pandas                 1.1.5
 ```
 
+## Training & Testing
++ We run main_VAE.py to train and evaluate the model:
+```bash 
+python main_VAE.py
+```
++ Our proposed model is saved in models.py, named "VAE_MM".
+
 ## Citation
 If this repository is useful for your research, please cite:
 
@@ -47,6 +53,6 @@ If this repository is useful for your research, please cite:
 ## Contact
 For any questions, please contact 'wama@cse.cuhk.edu.hk'
 
-# License
+## License
 This project is covered under the **Apache 2.0 License**.
 
