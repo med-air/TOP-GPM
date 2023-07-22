@@ -34,6 +34,8 @@ pandas                 1.1.5
 ```
 
 ## Training & Testing
++ This article uses a private dataset. In order to successfully run the code, you need to prepare your own dataset.
++ Specifically, you need to prepare a .xls file, which saves the patients' non-imaging clinical data and the path of imaging data. We have provided an example for you to run the data, which is saved in "./data/IPH/example.xls".
 + We run main_VAE.py to train and evaluate the model:
 ```bash 
 python main_VAE.py
