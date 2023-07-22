@@ -1,11 +1,10 @@
 # Introduction
 
 + Pytorch implementation for paper "Treatment Outcome Prediction for Intracerebral Hemorrhage via Generative Prognostic Model with Imaging and Tabular Data" (MICCAI'23).
-+ The code is a little bit messy. Please do not distribute. We will release cleaned-up project after publishing the paper:)
 + We run main_VAE.py to train and evaluate the model. Our proposed model is saved in models.py, named "VAE_ours2".
 
 <p align="center">
-<img src="./assets/intro.png" alt="intro" width="100%"/>
+<img src="./assets/intro.png" alt="intro" width="85%"/>
 </p>
 
 ## Abstract
