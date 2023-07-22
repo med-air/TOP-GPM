@@ -170,7 +170,7 @@ def train_and_predict_dragons(t, y, x, img_path, targeted_regularization=True, o
         
     elif dragon == 'ours':
         print("I am here making ours")
-        net = VAE_ours2(x.shape[1],hidden_size=200,latent_size=10).to("cuda")
+        net = VAE_MM(x.shape[1],hidden_size=200,latent_size=10).to("cuda")
 
     # Which loss to use for training the network
     #net = torch.nn.DataParallel(net)
