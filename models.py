@@ -61,9 +61,9 @@ class EpsilonLayer(nn.Module):
     def forward(self, inputs):
         return torch.mm(torch.ones_like(inputs)[:, 0:1], self.weights.T)
 
-class VAE_ours2(nn.Module):
+class VAE_MM(nn.Module):
     def __init__(self,input_size,hidden_size,latent_size,out_features=[200, 64, 1]):
-        super(VAE_ours2,self).__init__()
+        super(VAE_MM,self).__init__()
         dropout = False
         self.input_size = input_size
         self.hidden_size = hidden_size
