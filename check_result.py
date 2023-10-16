@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
-from idhp_data import *
+# from idhp_data import *
 import SimpleITK as sitk
 import cv2
 import numpy as np
