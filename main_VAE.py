@@ -312,8 +312,8 @@ def run_ihdp(data_base_dir, output_dir='~/result/IPH/',
 
         os.makedirs(simulation_output_dir, exist_ok=True)
 
-        x, img_path = load_and_format_covariates_hadcl(simulation_file)
-        t, y, y_cf, mu_0, mu_1 = load_all_other_crap_hadcl(simulation_file)
+        x, img_path = load_and_format_covariates(simulation_file)
+        t, y, y_cf, mu_0, mu_1 = load_all_other_crap(simulation_file)
         np.savez_compressed(os.path.join(simulation_output_dir, "simulation_outputs.npz"),
                             t=t, y=y, y_cf=y_cf, mu_0=mu_0, mu_1=mu_1)
 
