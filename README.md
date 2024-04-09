@@ -45,12 +45,14 @@ python main_VAE.py
 ## Citation
 If this repository is useful for your research, please cite:
 
-       @article{ma2023topgpm,
+       @inproceedings{ma2023treatment,
          title={Treatment Outcome Prediction for Intracerebral Hemorrhage via Generative Prognostic Model with Imaging and Tabular Data},
          author={Ma, Wenao and Chen, Cheng and Abrigo, Jill and Mak, Calvin Hoi-Kwan and Gong, Yuqi and Chan, Nga Yan and Han, Chu and Liu, Zaiyi and Dou, Qi},
-         journal={International Conference on Medical Image Computing and Computer Assisted Intervention},
-         year={2023}
-       } 
+         booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+         pages={715--725},
+         year={2023},
+         organization={Springer}
+       }
 
 ## Contact
 For any questions, please contact 'wama@cse.cuhk.edu.hk'
