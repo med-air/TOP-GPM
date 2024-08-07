@@ -1,6 +1,6 @@
 ## Introduction
 
-+ Pytorch implementation for paper **[Treatment Outcome Prediction for Intracerebral Hemorrhage via Generative Prognostic Model with Imaging and Tabular Data](https://github.com/med-air/TOP-GPM)** 
++ Pytorch implementation for paper **[Treatment Outcome Prediction for Intracerebral Hemorrhage via Generative Prognostic Model with Imaging and Tabular Data](https://arxiv.org/pdf/2307.12858)** 
 
 <p align="center">
 <img src="./assets/intro.png" alt="intro" width="85%"/>
